@@ -7,9 +7,8 @@ AWS website that hosts cloud footage to record lightning strikes. The following 
 
 # Example
 
-![figma](https://user-images.githubusercontent.com/71856219/198448831-86a9e7c5-667d-40a6-ba72-deabf5eb1155.png)
+![Screenshot_20221029-091756-920](https://user-images.githubusercontent.com/71856219/198847164-ee7adf50-eef7-45be-aa8a-b4f726878500.png)
 
-![figmav2](https://user-images.githubusercontent.com/71856219/198448837-9fec125c-46ae-4a2a-bc24-53cfff4bee9c.png)
 
 # Benefits
 - Store data of different classifications of lightning
