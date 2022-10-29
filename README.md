@@ -5,7 +5,7 @@ Melanoma is one of the most common cancers in young adults under thirty, yet it 
 
 # Example
 
-![Screenshot_20221029-091756-920](https://user-images.githubusercontent.com/71856219/198847164-ee7adf50-eef7-45be-aa8a-b4f726878500.png)
+![Screenshot_20221029-091756-920](https://user-images.githubusercontent.com/71856219/198847275-3e373f0e-a1af-45e8-8b81-47fd1ac46a8b.png)
 
 
 # Benefits
