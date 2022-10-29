@@ -1,7 +1,5 @@
 # Melanoma Diagnostics App
 
-## IP address hosted from AWS EC2 instance: *http://18.118.32.177:8080/*
-
 # What is the Melanoma Diagnostics App?
 Melanoma is one of the most common cancers in young adults under thirty, yet it goes undiagnosed until after their fifties [1]. The longer it is undiagnosed, the more it spreads, and the more difficult it is to treat. In an effort to help individuals at risk detect melanoma earlier to increase their survival rate, we have created an app to help them detect it with simple steps from their phone. The purpose of this application is to simplify the process for worried individuals to check if they’re at risk of Melanoma.
 
