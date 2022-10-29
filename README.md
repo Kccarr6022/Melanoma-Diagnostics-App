@@ -5,8 +5,7 @@ Melanoma is one of the most common cancers in young adults under thirty, yet it 
 
 # Example
 
-![Screenshot_20221029-091756-920](https://user-images.githubusercontent.com/71856219/198847275-3e373f0e-a1af-45e8-8b81-47fd1ac46a8b.png)
-
+![Screenshot_20221029-091756-920](https://user-images.githubusercontent.com/71856219/198847590-c66e94fb-9c32-4561-ab91-00a472c505b1.png)
 
 # Benefits
 - Store data of different classifications of lightning
