@@ -24,21 +24,6 @@ Stores footage of lightning strike data
 - AWS: for cloud hosting
 - SQL Alchemy
 
-## Challenges we ran into
-- Implementing AWS for the first time 
-- Making a fully functional website
-- Completing a full stack project within the given time frame
-- Coming up with a feasible idea
-- Building a database with SQLAlchemy
 
-## Accomplishments that we're proud of
-- Learning Flask
-- Multistack application for making 
-- Updating and learning multiple device connection
-
-## What we learned
-- How to implement Flask
-- Updating user interface elements
-
-## What's next for CloudWatch
+## What's next for Melanoma Diagnostics
 - Having to add more features and allow more devices to cooperate with it
