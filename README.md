@@ -12,7 +12,7 @@ Melanoma is one of the most common cancers in young adults under thirty, yet it 
 - Can ease worries to patients who believe they may have cancer
 
 ## Inspiration
-The inspiration for this project is to prevent disastors from happening due to people potentially not having the resources required to check moles.
+The inspiration for this project is to prevent disastors from happening due to people potentially not having the resources required for checkups.
 
 ## What it does
 Stores footage of lightning strike data
