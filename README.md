@@ -8,12 +8,11 @@ Melanoma is one of the most common cancers in young adults under thirty, yet it 
 ![Screenshot_20221029-091756-920](https://user-images.githubusercontent.com/71856219/198847590-c66e94fb-9c32-4561-ab91-00a472c505b1.png)
 
 # Benefits
-- Store data of different classifications of lightning
-- Website to view live footage
-- Free access for edu users
+- Allows users to recieve accurate diagnostics with a 3g internet connection
+- Can ease worries to patients who believe they may have cancer
 
 ## Inspiration
-Hearing stories of students who struggle with getting volunteer hours and missing out on them.
+The inspiration for this project is to prevent disastors from happening due to people potentially not having the resources required to check moles.
 
 ## What it does
 Stores footage of lightning strike data
