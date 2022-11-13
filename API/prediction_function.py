@@ -18,7 +18,7 @@ def testimage(image = None) -> int:
 
     Args:
         base64image (str, optional): JPG image of mole. Defaults to None.
-
+wdawd
     Returns:
         int: percent chance of having melanoma as an int out of 100
     """
