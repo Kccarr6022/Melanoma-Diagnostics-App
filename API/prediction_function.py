@@ -2,6 +2,13 @@ import base64
 
 image = ""
 
+def init_model():
+    pass
+    
+
+
+init_model()
+
 
 def testimage(base64image:str = None) -> int:
     """Test image and returns confidence level
@@ -14,6 +21,7 @@ def testimage(base64image:str = None) -> int:
     """
     image = base64.decode()
     test_result = 0
+    
     
 
     return test_result
