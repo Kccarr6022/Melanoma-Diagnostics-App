@@ -30,4 +30,5 @@ def testimage(image = None) -> int:
     return int(test_result)
 
 # test function
+
 print(f" This image has a {testimage(image)}% chance of being melanoma")
