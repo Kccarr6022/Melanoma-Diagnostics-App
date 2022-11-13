@@ -1,7 +1,13 @@
+from prediction_function import  *
 import json
-import psycopg2
+
 
 print('Loading function')
+
+result = 0
+
+def test(file = None) -> int:
+    return 1
 
 def lambda_handler(event, context):
     #1. Parse out query string params
@@ -14,11 +20,10 @@ def lambda_handler(event, context):
     print(f"Transaction Amount: {transactionAmount}")
 
     #2. constructs body of response object
-    transactionResponse = {}
-    transactionResponse['transactionId'] = transactionId
-    transactionResponse['type'] = transactionType
-    transactionResponse['amount'] = transactionAmount
-    transactionResponse['message'] = 'Hello from lambda land'
+    result = test(None)
+    transactionResponse = {
+        "result" : result
+    }
 
     #3. Construct http response object
     responseObject = {}
