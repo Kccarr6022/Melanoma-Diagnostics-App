@@ -1,4 +1,4 @@
-from prediction_function import  *
+from ..prediction_function import *
 import json
 
 
@@ -33,3 +33,4 @@ def lambda_handler(event, context):
     responseObject['body'] = json.dumps(transactionResponse)
 
     return responseObject
+lambda_handler()
