@@ -12,17 +12,23 @@ conn = psycopg2.connect(
     database=os.environ['RDS_DB'],
     user=os.environ['RDS_USERNAME'],
     password=os.environ['RDS_PASSWORD'])
-cur = conn.cursor()
+cursor = conn.cursor()
 
 entry = {
     'id' : 2,
     'name' : '',
-    'result': 10,
+    'result': None,
     'date' : date.today()
 }
 
+SQL = "SELECT * FROM results"
+cursor.execute(SQL)
+record = cursor.fetchall()
+print(record)
+conn.commit()
+
+
 def lambda_handler(event, context):
-    #1. Parse out query string params
 
     #2. constructs body of response object
     response_body = {
