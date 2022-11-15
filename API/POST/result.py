@@ -6,7 +6,10 @@ import psycopg2
 import json
 import os
 
+# load environment
 load_dotenv()
+
+# connect to database
 conn = psycopg2.connect(
     host=os.environ['RDS_HOST'],
     database=os.environ['RDS_DB'],
@@ -15,31 +18,31 @@ conn = psycopg2.connect(
 cursor = conn.cursor()
 
 entry = {
-    'id' : 2,
+    'id' : None,
     'name' : '',
     'result': None,
     'date' : date.today()
 }
 
-SQL = "SELECT * FROM results"
-cursor.execute(SQL)
-record = cursor.fetchall()
-print(record)
-conn.commit()
-
 
 def lambda_handler(event, context):
 
-    #2. constructs body of response object
-    response_body = {
-        "result" : entry #prediction_function(image)
-    }
+    # insert post to database
+    SQL = f"INSERT INTO result VALUES({entry['id']}, '{entry['name']}', {entry['result']}, '{entry['date']}')"
+    cursor.execute(SQL)
+    record = cursor.fetchall()
+    print(record)
+    conn.commit()
 
-    #3. Construct http response object
+    # body of response
+    response_body = {}
+    response_body['message'] = f"Added {entry['name']}'s data to the database"
+
+    # construct response
     response_object = {}
     response_object['statusCode'] = 200
     response_object['headers'] = {}
     response_object['headers']['Content-Type'] = 'application/json'
     response_object['body'] = json.dumps(response_body)
 
-    return response_body
+    return response_object
