@@ -144,7 +144,7 @@ image = ""
 imgdata = base64.b64decode(image)
 
 
-def testimage(imgdata):  # argument is the image: base64image (str, optional): JPG image of mole
+def testimage(imgdata) -> float:  # argument is the image: base64image (str, optional): JPG image of mole
     total_correct = 0
     test_result: float = 0
 
