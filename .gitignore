@@ -2,3 +2,5 @@
 /app/node_modules
 /backend/node_modules
 /backend/.env
+/backend/.serverless
+/backend/__pycache__

@@ -18,11 +18,11 @@ The inspiration for this project is to prevent disastors from happening due to p
 Stores footage of lightning strike data
 
 ## How we built it
-- HTML/CSS: for frontend
+- React Native: for frontend
+- Expo: for testing
 - Python: for backend
 - AWS: for cloud hosting
 - SQL Alchemy
-
 
 ## What's next for Melanoma Diagnostics
 - Having to add more features and allow more devices to cooperate with it
