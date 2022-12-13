@@ -11,7 +11,6 @@ from flask_marshmallow import Marshmallow
 from flask_cors import CORS
 from createapp import create_app,db
 from dotenv import load_dotenv
-import os
 from createapp import create_app, db, ma
 from models import Results, result_schema, results_schema
 
