@@ -5,7 +5,6 @@
 #
 ###############################################
 
-from sqlalchemy import ForeignKey
 from createapp import db,ma
 
 # Database classes
