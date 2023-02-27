@@ -22,7 +22,7 @@ Stores footage of lightning strike data
 - Expo: for testing
 - Python: for backend
 - AWS: for cloud hosting
-- SQL Alchemy
+- SQL Alchemy: Object Relational Model for Postgres on RDS
 
 ## What's next for Melanoma Diagnostics
 - Having to add more features and allow more devices to cooperate with it
